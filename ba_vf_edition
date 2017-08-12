@@ -18,6 +18,7 @@ class cShowBA:
         self.search =  self.search + '+bande+annonce'
     
     def SearchBA(self):
+        #self.url= 'https://www.youtube.com/results?sp=EgIYAVAU&q=' + self.search + 'vf+-vo'
         self.url = 'https://www.youtube.com/results?search_query=' + self.search + 'vf+-vo'
         
         oRequestHandler = cRequestHandler(self.url)
